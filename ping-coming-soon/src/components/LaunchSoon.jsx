@@ -18,7 +18,7 @@ const LaunchSoon = () => {
   };
 
   return (
-    <section>
+    <main>
       <div className="my-16 flex justify-center">
         <img src={logo} alt="PING." />
       </div>
@@ -53,7 +53,7 @@ const LaunchSoon = () => {
       </div>
       {/* desktop */}
       <p className="hidden sm:block text-center text-[#FF5263]">{message}</p>
-    </section>
+    </main>
   );
 };
 

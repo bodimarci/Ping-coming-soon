@@ -3,7 +3,7 @@ import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => (
-  <section className="mt-20">
+  <footer className="mt-20">
     <ul className="flex justify-center p-5">
       <li className="border border-[#C2D3FF]  rounded-full">
         <FaFacebookF size={24} className="m-2 text-[#4F7DF3]" />
@@ -18,7 +18,7 @@ const Footer = () => (
     <div className="text-center text-[#969696] pb-16">
       <p>© Copyright Ping. All rights reserved.</p>
     </div>
-  </section>
+  </footer>
 );
 
 export default Footer;
